@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb  
+    driverClassName: org.h2.Driver 
+    username: sa 
+    password:
+    platform: h2
+    initialization-mode: always
+  h2:
+    console.enabled: true
+    console.path: /h2-console
+  jpa.show-sql: true
+logging:
+  level:
+    com.disney.studios: DEBUG 
